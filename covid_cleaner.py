@@ -16,4 +16,4 @@ df_by_country.to_csv("output_data/cleaned_order_by_country.csv")
 df_order_by_daily_trend=df_cleaned.groupby("Date")[["Confirmed", "Deaths"]].sum()
 df_order_by_daily_trend.to_csv("output_data/order_by_daily_trend.csv")
 
-print("Cleaned data saved!")
+print("Cleaned data saved successfully!")
